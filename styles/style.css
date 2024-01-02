@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Jost:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Jost:ital,wght@1,900&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    /* background-color:  #c6eef7; */
+    /* color:  #b6cbce; */
+    font-family: "Bai Jamjuree", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    /* color:#eef3db; */
+    font-weight: 700;
+}
+
+/*navbar*/
+.navbar{
+    /* background-color: #0d0d0d; */
+    background-color: none;
+    margin: 30px 100px;
+}
+.navbar .nav-link{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0d0d0d;
+}
+.navbar .nav-link:hover{
+    color: #b6cbce;
+}
+.name-image-div{
+    padding-top: 200px;
+    padding-left: 40px;
+    margin-top: 100px;
+    position: relative;
+    /* background-color: transparent; */
+    background-image: url('../images//bannaer-image.png');
+    background-position: center;
+    background-size: 1050px 250px;
+    background-repeat: no-repeat;
+}
+.banner-title{
+    margin-left: 200px;
+    font-size: 300px;
+    font-weight: 1200;
+}
+.banner-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto; 
+    height: 190px;
+    width: 180px;
+}
