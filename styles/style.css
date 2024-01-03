@@ -3,7 +3,7 @@
 
 
 *{
-    /* background-color:  #c6eef7; */
+    background-color:  #c5e4eb;
     /* color:  #b6cbce; */
     font-family: "Bai Jamjuree", sans-serif;
 }
@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar{
     /* background-color: #0d0d0d; */
     background-color: none;
-    margin: 30px 100px;
+    margin-top: 50px;
 }
 .navbar .nav-link{
     font-weight: 700;
@@ -26,31 +26,4 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar .nav-link:hover{
     color: #b6cbce;
-}
-.name-image-div{
-    padding-top: 200px;
-    padding-left: 40px;
-    margin-top: 100px;
-    position: relative;
-    /* background-color: transparent; */
-    background-image: url('../images//bannaer-image.png');
-    background-position: center;
-    background-size: 1050px 250px;
-    background-repeat: no-repeat;
-}
-.banner-title{
-    margin-left: 200px;
-    font-size: 300px;
-    font-weight: 1200;
-}
-.banner-logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    margin: auto; 
-    height: 190px;
-    width: 180px;
 }
