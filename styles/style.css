@@ -6,6 +6,8 @@
     background-color:  #c5e4eb;
     /* color:  #b6cbce; */
     font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1,h2,h3,h4,h5,h6{
     /* color:#eef3db; */
@@ -26,4 +28,55 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar .nav-link:hover{
     color: #b6cbce;
+}
+/* footer css */
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.footer-image{
+    height: 400px;
+    width: 1349px;
+    margin-top: 600px;
+}
+.footer-title{
+    position: absolute;
+    text-align: center;
+    padding-left: 350px;
+    top: 700px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #817f83;
+}
+.icon{
+    position: absolute;
+    padding-left: 480px;
+    top: 800px;
+    background-color: transparent;
+    font-size: 30px;
+    display: flex;
+    /* color: #f1eff4; */
+}
+.icon i {
+    margin-right: 35px; 
+    margin-top: 20px;
+    background-color: transparent;
+    color: #bbb9b9;
+}
+.rights{
+    position: absolute;
+    margin-left: 50px;
+    top: 900px;
+    background-color: transparent;
+    color: #bbb9b9;
+    font-size: 20px;
+}
+.terms{
+    position: absolute;
+    margin-left: 1000px;
+    top: 900px;
+    background-color: transparent;
+    color: #bbb9b9;
+    font-size: 20px;
 }
