@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Jost:ital,wght@1,900&family=Poppins:wght@400;500;600;700&display=swap');
 
 
-*{
-    background-color:  #c5e4eb;
+body{
+    background-color:  #c5e4eb !important;
     /* color:  #b6cbce; */
     font-family: "Bai Jamjuree", sans-serif;
     margin: 0;
@@ -12,6 +12,7 @@
 h1,h2,h3,h4,h5,h6{
     /* color:#eef3db; */
     font-weight: 700;
+
 }
 
 /*navbar*/
@@ -29,54 +30,63 @@ h1,h2,h3,h4,h5,h6{
 .navbar .nav-link:hover{
     color: #b6cbce;
 }
+/* contact css */
+#contact {
+    height: 200px;
+    width: 100%;
+  }
+
+  .contact-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+  } 
+  .contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-details li {
+    padding-bottom: 10px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  #contact textarea {
+    min-height: 160px;
+  }
 /* footer css */
-.footer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.footer {
+    background-image: url("/images/footer.jpg");
+    background-repeat: no-repeat;
+    /* background-color: #0d0d0d !important; */
 }
-.footer-image{
-    height: 400px;
-    width: 1349px;
-    margin-top: 600px;
+.footer-section{
+    padding: 80px;
+    color: #bbb9b9;
 }
 .footer-title{
-    position: absolute;
     text-align: center;
-    padding-left: 350px;
-    top: 700px;
-    background-color: transparent;
     font-size: 20px;
-    color: #817f83;
 }
 .icon{
-    position: absolute;
-    padding-left: 480px;
-    top: 800px;
+    text-align: center;
     background-color: transparent;
     font-size: 30px;
+    color: #f1eff4;
+}
+.icon-space{
+    margin-right: 20px;
+}
+.credits{
     display: flex;
-    /* color: #f1eff4; */
-}
-.icon i {
-    margin-right: 35px; 
-    margin-top: 20px;
-    background-color: transparent;
-    color: #bbb9b9;
-}
-.rights{
-    position: absolute;
-    margin-left: 50px;
-    top: 900px;
-    background-color: transparent;
-    color: #bbb9b9;
+    justify-content: space-between;
+    margin-top: 50px;
     font-size: 20px;
 }
-.terms{
-    position: absolute;
-    margin-left: 1000px;
-    top: 900px;
-    background-color: transparent;
-    color: #bbb9b9;
-    font-size: 20px;
-}
+
