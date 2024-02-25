@@ -9,11 +9,11 @@ body{
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6{
-    /* color:#eef3db; */
+/* h1,h2,h3,h4,h5,h6{
+    color:#eef3db;
     font-weight: 700;
 
-}
+} */
 
 /*navbar*/
 .navbar{
@@ -55,31 +55,24 @@ h1,h2,h3,h4,h5,h6{
 }
 .nav-footer{
     text-align: center;
-    padding: 30px ;
+    padding: 20px ;
+    
 }
-/* service */
-/* .link-custom{
-    font-weight: 700;
-    position: relative;
-}
-.link-custom:after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background-color:  #e0f780;
-    position: absolute;
-    left: 0;
-    top: 110%;
-    transition: all 0.4s;
-}
-.link-custom:hover::after{
-    width: 100%;
-} */
 
 /* about */
 #about{
-    height: 300px;
+    height: 200px;
     background-color: #8cbac2;
+}
+.pick-up{
+    text-align: center;
+}
+.pick-up-title1{
+    font-size: 25px;
+}
+.pick-up-title2{
+    font-size: 70px;
+    font-weight: 780;
 }
 /* contact css */
 #contact {
