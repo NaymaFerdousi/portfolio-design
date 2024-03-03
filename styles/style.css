@@ -61,18 +61,22 @@ body{
 
 /* about */
 #about{
-    height: 200px;
+    height: 250px;
     background-color: #8cbac2;
 }
 .pick-up{
     text-align: center;
 }
 .pick-up-title1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .pick-up-title2{
     font-size: 70px;
     font-weight: 780;
+}
+.pick-up-title3{
+    font-weight: 500;
+    font-size: bold;
 }
 /* contact css */
 #contact {
